@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications — First Last</title>
+  <meta name="description" content="Personal website of First Last, researcher in [Your Field] at [Lab / University].">
+  <link rel="alternate" hreflang="fr" href="../fr/publications.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav>
+    <a class="brand" href="index.html">First Last ✿</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html" class="active">Publications</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="lang-switch" aria-label="Language">
+      <a href="../en/publications.html" class="current" lang="en">EN</a>
+      <a href="../fr/publications.html" lang="fr" hreflang="fr">FR</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-top">
+    <h2><span>Publications</span></h2>
+
+    <h3>Journal articles</h3>
+    <ol class="pubs" reversed>
+      <li>
+        <span class="authors"><strong>F. Last</strong>, A. Colleague, B. Colleague.</span>
+        <span class="title">Title of the article.</span>
+        <em>Journal Name</em>, vol. 12(3), 2026.
+        <span class="pub-links">
+          <a href="https://doi.org/10.xxxx/xxxxx">DOI</a>
+          <a href="https://arxiv.org/abs/0000.00000">arXiv</a>
+          <a href="https://hal.science/hal-00000000">HAL</a>
+        </span>
+      </li>
+      <li>
+        <span class="authors">A. Colleague, <strong>F. Last</strong>.</span>
+        <span class="title">Title of another article.</span>
+        <em>Journal Name</em>, 2025.
+        <span class="pub-links"><a href="#">DOI</a></span>
+      </li>
+    </ol>
+
+    <h3>Conference papers</h3>
+    <ol class="pubs" reversed>
+      <li>
+        <span class="authors"><strong>F. Last</strong>, A. Colleague.</span>
+        <span class="title">Title of the conference paper.</span>
+        <em>Conference Name</em>, City, 2025.
+        <span class="pub-links"><a href="#">PDF</a> <a href="#">Slides</a></span>
+      </li>
+    </ol>
+
+    <p class="hint">Full list on <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a>.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>✿ © <span id="year">2026</span> First Last · Last updated: October 2026 ✿</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

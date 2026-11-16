@@ -356,6 +356,32 @@ section p { margin: 0 0 0.9rem; }
   text-decoration: none;
 }
 
+
+/* Largeur du site */
+.site-header nav,
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation */
+.site-header .brand {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.site-header nav ul {
+    gap: 8px;
+}
+
+.lang-switch {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+
 /* ---------- Mobile ---------- */
 @media (max-width: 640px) {
   h1 { font-size: 2.1rem; }
@@ -364,3 +390,4 @@ section p { margin: 0 0 0.9rem; }
   .avatar { width: 140px; height: 140px; }
   .site-header nav { justify-content: center; }
 }
+

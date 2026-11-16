@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications — Prénom Nom</title>
+  <meta name="description" content="Page personnelle de Prénom Nom, chercheuse en [votre domaine] à [Laboratoire / Université].">
+  <link rel="alternate" hreflang="en" href="../en/publications.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav>
+    <a class="brand" href="index.html">Prénom Nom ✿</a>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="research.html">Recherche</a></li>
+      <li><a href="publications.html" class="active">Publications</a></li>
+      <li><a href="teaching.html">Enseignement</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="lang-switch" aria-label="Langue">
+      <a href="../fr/publications.html" class="current" lang="fr">FR</a>
+      <a href="../en/publications.html" lang="en" hreflang="en">EN</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-top">
+    <h2><span>Publications</span></h2>
+
+    <h3>Articles de revues</h3>
+    <ol class="pubs" reversed>
+      <li>
+        <span class="authors"><strong>P. Nom</strong>, A. Colleague, B. Colleague.</span>
+        <span class="title">Titre de l'article.</span>
+        <em>Nom de la revue</em>, vol. 12(3), 2026.
+        <span class="pub-links">
+          <a href="https://doi.org/10.xxxx/xxxxx">DOI</a>
+          <a href="https://arxiv.org/abs/0000.00000">arXiv</a>
+          <a href="https://hal.science/hal-00000000">HAL</a>
+        </span>
+      </li>
+      <li>
+        <span class="authors">A. Colleague, <strong>P. Nom</strong>.</span>
+        <span class="title">Titre d'un autre article.</span>
+        <em>Nom de la revue</em>, 2025.
+        <span class="pub-links"><a href="#">DOI</a></span>
+      </li>
+    </ol>
+
+    <h3>Communications en conférence</h3>
+    <ol class="pubs" reversed>
+      <li>
+        <span class="authors"><strong>P. Nom</strong>, A. Colleague.</span>
+        <span class="title">Titre de la communication.</span>
+        <em>Nom de la conférence</em>, Ville, 2025.
+        <span class="pub-links"><a href="#">PDF</a> <a href="#">Slides</a></span>
+      </li>
+    </ol>
+
+    <p class="hint">Liste complète sur <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a>.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>✿ © <span id="year">2026</span> Prénom Nom · Dernière mise à jour : octobre 2026 ✿</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
